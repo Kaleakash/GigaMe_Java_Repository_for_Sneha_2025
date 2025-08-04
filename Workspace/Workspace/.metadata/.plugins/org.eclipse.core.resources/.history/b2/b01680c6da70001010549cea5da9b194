@@ -1,0 +1,15 @@
+package encapsulation;
+class Employee {
+int id;
+String name;
+float salary;
+}
+
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
