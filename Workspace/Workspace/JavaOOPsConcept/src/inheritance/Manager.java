@@ -1,0 +1,19 @@
+package inheritance;
+
+public class Manager extends Employee{
+private int numberOfEmp;
+
+Address add = new Address();		//Manager has a Address 
+public void readMgr() {
+	readEmp();  // super readEmp() 
+	System.out.println("Enter the number of employee working under him/her");
+	numberOfEmp = sc.nextInt();
+	add.readAdd();
+}
+public void disMgr() {
+	disEmp();    // super disEmp()
+	System.out.println("Number of employee working under him/her "+numberOfEmp);
+	add.disAdd();
+}
+
+}

@@ -1,0 +1,17 @@
+package polymorphism;
+
+class Operation {
+	
+	void add() {
+		System.out.println(10+20);
+	}
+}
+
+public class MethodOverloadingExample {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

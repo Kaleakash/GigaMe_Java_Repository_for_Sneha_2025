@@ -1,0 +1,17 @@
+package polymorphism;
+class Bike {
+	void speed() {
+		System.out.println("60km/hr");
+	}
+}
+class Honda extends Bike {
+	
+}
+public class MethodOverridingExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
