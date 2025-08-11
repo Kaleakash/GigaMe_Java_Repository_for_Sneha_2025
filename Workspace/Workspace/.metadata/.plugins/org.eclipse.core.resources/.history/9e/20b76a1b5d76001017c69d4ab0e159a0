@@ -1,0 +1,18 @@
+package abstractkeyword;
+
+abstract class Bank {
+	abstract void withdraw();
+	abstract void deposit();
+	void findInterest() {
+		System.out.println("Generic Interest is 2%");
+	}
+}
+
+public class AbstractExample {
+
+	public static void main(String[] args) {
+	
+
+	}
+
+}

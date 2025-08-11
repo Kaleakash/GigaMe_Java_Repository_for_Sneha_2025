@@ -1,0 +1,76 @@
+package abstractkeyword;
+
+abstract class Bank {
+	abstract void withdraw();
+	abstract void deposit();
+	void findInterest() {
+		System.out.println("Generic Interest is 2%");
+	}
+}
+class Hdfc extends Bank {
+	@Override
+	void withdraw() {
+		System.out.println("Hdfc Bank withdraw process");
+	}
+	@Override
+	void deposit() {
+		System.out.println("Hdfc Bank deposit process");
+	}	
+}
+class Sbi extends Bank {
+	@Override
+	void withdraw() {
+		System.out.println("Sbi Bank withdraw process");
+	}
+	@Override
+	void deposit() {
+		System.out.println("Sbi Bank Deposit process");
+	}
+	@Override
+	void findInterest() {
+		System.out.println("Sbi Bank rate of interest  1% ");
+	}
+	
+}
+class Hsbc extends Bank {
+	@Override
+	void withdraw() {
+		System.out.println("Hsbc Bank withdraw process");
+	}
+
+	@Override
+	void deposit() {
+		System.out.println("Hsbc Bank Deposit process");
+	}
+
+	@Override
+	void findInterest() {
+		super.findInterest();		// they super class code ie 2% interest 
+		System.out.println("Hsbc Bank rate of interest  1.5% ");		// merge both the code. 
+	}
+	
+}
+public class AbstractExample {
+
+	public static void main(String[] args) {
+	Bank bb1 = new Hdfc();
+	System.out.println("Hdfc Bank Logic");
+	bb1.deposit();
+	bb1.withdraw();
+	bb1.findInterest();
+	System.out.println("--------");
+	Bank bb2 = new Hsbc();
+	System.out.println("Hsbc Bank Logic");
+	bb2.deposit();
+	bb2.withdraw();
+	bb2.findInterest();
+	System.out.println("-------");
+	Bank bb3 = new Sbi();
+	System.out.println("Sbi Bank Logic");
+	bb3.deposit();
+	bb3.withdraw();
+	bb3.findInterest();
+	
+	}
+
+}

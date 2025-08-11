@@ -1,0 +1,30 @@
+package passobject;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Address add1 = new Address();
+		add1.setCity("bangalore");
+		add1.setState("Kar");
+		
+		Address add2 = new Address("Mumbai", "Mh");
+		
+		Employee emp1 = new Employee();
+		emp1.setId(100);
+		emp1.setName("Ravi");
+		emp1.setSalary(45000);
+		emp1.setAdd(add1);
+		
+		Employee emp2 = new Employee(101, "Raj", 42000, add2);
+		
+		System.out.println("Get Employee 1 details ");
+		System.out.println("id is "+emp1.getId());
+		System.out.println("name is "+emp1.getName());
+		System.out.println("salary is "+emp1.getSalary());
+		Address empAdd1 = emp1.getAdd();
+		System.out.println("City is "+empAdd1.getCity());
+		System.out.println("State is "+empAdd1.getState());
+	}
+
+}

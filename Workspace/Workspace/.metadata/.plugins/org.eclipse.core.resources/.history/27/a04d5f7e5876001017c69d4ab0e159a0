@@ -1,0 +1,27 @@
+package polymorphism;
+class Bike {
+	void speed() {
+		System.out.println("60km/hr");
+	}
+}
+class Honda extends Bike {
+	//@Override
+	void color(String name) {
+		System.out.println("Honda color: "+name);
+	}
+	@Override
+	void speed() {
+		super.speed();					// merge both speed method code 
+		System.out.println("Honda speed override : 50km/hr");
+	}
+}
+public class MethodOverridingExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Honda hh = new Honda();
+		hh.color("Red");
+		hh.speed();
+	}
+
+}

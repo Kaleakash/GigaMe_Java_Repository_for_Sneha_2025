@@ -1,0 +1,15 @@
+package abstractkeyword;
+
+abstract class Bank {
+	abstract void withdraw();
+	abstract void deposit();
+}
+
+public class AbstractExample {
+
+	public static void main(String[] args) {
+	
+
+	}
+
+}
