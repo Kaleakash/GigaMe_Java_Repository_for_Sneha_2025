@@ -14,7 +14,7 @@ public class MainClass {
 		emp1.setId(100);
 		emp1.setName("Ravi");
 		emp1.setSalary(45000);
-		emp1.setAdd(add1);
+			emp1.setAdd(add1);
 		
 		Employee emp2 = new Employee(101, "Raj", 42000, add2);
 		
@@ -22,7 +22,7 @@ public class MainClass {
 		System.out.println("id is "+emp1.getId());
 		System.out.println("name is "+emp1.getName());
 		System.out.println("salary is "+emp1.getSalary());
-		Address empAdd1 = emp1.getAdd();
+			Address empAdd1 = emp1.getAdd();
 		System.out.println("City is "+empAdd1.getCity());
 		System.out.println("State is "+empAdd1.getState());
 	}

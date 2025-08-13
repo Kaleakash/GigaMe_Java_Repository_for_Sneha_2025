@@ -1,0 +1,15 @@
+package interfaceexample;
+interface Abc {
+	int A=10;
+	void dis1() {}
+}
+
+
+public class InterfaceDemoExample {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

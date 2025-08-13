@@ -1,0 +1,11 @@
+package interfaceexample;
+
+
+public class InterfaceDemoExample {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -9,4 +9,10 @@
     <fullyQualifiedTypeName name="polymorphism.Operation"/>
     <fullyQualifiedTypeName name="polymorphism.Honda"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="passobject.Address"/>
+    <fullyQualifiedTypeName name="passobject.Employee"/>
+    <fullyQualifiedTypeName name="abstractkeyword.Bank"/>
+    <fullyQualifiedTypeName name="abstractkeyword.Hdfc"/>
+    <fullyQualifiedTypeName name="abstractkeyword.Hsbc"/>
+    <fullyQualifiedTypeName name="abstractkeyword.Sbi"/>
 </qualifiedTypeNameHistroy>
