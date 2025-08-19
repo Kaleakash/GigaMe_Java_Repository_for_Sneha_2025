@@ -15,4 +15,6 @@
     <fullyQualifiedTypeName name="abstractkeyword.Hdfc"/>
     <fullyQualifiedTypeName name="abstractkeyword.Hsbc"/>
     <fullyQualifiedTypeName name="abstractkeyword.Sbi"/>
+    <fullyQualifiedTypeName name="statickeyword.Simple"/>
+    <fullyQualifiedTypeName name="statickeyword.Employee"/>
 </qualifiedTypeNameHistroy>
