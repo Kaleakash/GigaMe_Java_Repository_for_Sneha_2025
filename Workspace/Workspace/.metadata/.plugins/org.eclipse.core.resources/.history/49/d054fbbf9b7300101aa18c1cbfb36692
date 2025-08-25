@@ -1,7 +1,0 @@
-package inheritance;
-import java.util.Scanner;
-public class Address {
-private String city;
-private String state;
-Scanner sc = new Scanner(System.in);
-}

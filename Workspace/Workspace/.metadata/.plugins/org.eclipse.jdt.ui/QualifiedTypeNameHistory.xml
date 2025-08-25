@@ -17,4 +17,7 @@
     <fullyQualifiedTypeName name="abstractkeyword.Sbi"/>
     <fullyQualifiedTypeName name="statickeyword.Simple"/>
     <fullyQualifiedTypeName name="statickeyword.Employee"/>
+    <fullyQualifiedTypeName name="education.school.Attendance"/>
+    <fullyQualifiedTypeName name="education.college.Attendance"/>
+    <fullyQualifiedTypeName name="com.bean.Employee"/>
 </qualifiedTypeNameHistroy>
