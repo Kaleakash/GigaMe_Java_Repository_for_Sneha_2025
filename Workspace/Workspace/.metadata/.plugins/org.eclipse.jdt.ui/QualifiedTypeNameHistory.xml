@@ -4,7 +4,6 @@
     <fullyQualifiedTypeName name="encapsulation.Product"/>
     <fullyQualifiedTypeName name="inheritance.Manager"/>
     <fullyQualifiedTypeName name="inheritance.Employee"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="inheritance.Address"/>
     <fullyQualifiedTypeName name="polymorphism.Operation"/>
     <fullyQualifiedTypeName name="polymorphism.Honda"/>
@@ -20,4 +19,7 @@
     <fullyQualifiedTypeName name="education.school.Attendance"/>
     <fullyQualifiedTypeName name="education.college.Attendance"/>
     <fullyQualifiedTypeName name="com.bean.Employee"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.MyException"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
 </qualifiedTypeNameHistroy>
